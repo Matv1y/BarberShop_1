@@ -183,12 +183,13 @@ letter-spacing: 1.1px;
 }
 .about-title {
   color: var(--title-font-color);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 42px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 2.1px; 
+  max-width: 483px;
 }
 .about-overtitle {
   color: var(--gen-font-color);
@@ -197,6 +198,7 @@ letter-spacing: 1.1px;
   font-weight: 400;
   line-height: 30px; /* 166.667% */
   letter-spacing: 0.36px;
+  max-width: 500px;
 }
 .about-text {
   color: var(--gen-font-color);
@@ -205,6 +207,7 @@ letter-spacing: 1.1px;
   font-weight: 400;
   line-height: 26px; /* 185.714% */
   letter-spacing: 0.28px;
+  max-width: 500px;
 }
 .about-btn {
   color: var(--title-font-color);
